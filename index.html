@@ -1,1019 +1,533 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
   <head>
-    <meta charset="utf-8" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-
-    <title>Min Kyaw Thu's Portfolio</title>
-    <meta content="" name="description" />
-    <meta content="" name="keywords" />
-
-    <!-- Favicons -->
-    <link rel="icon" type="x-icon/image" href="assets/img/favicon.ico">
-
-    <!-- Vendor CSS Files -->
-    <link
-      href="assets/vendor/bootstrap/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <link
-      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
-      rel="stylesheet"
-    />
-    <link
-      href="assets/vendor/glightbox/css/glightbox.min.css"
-      rel="stylesheet"
-    />
-    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
-
-    <!-- Template Main CSS File -->
-    <link href="assets/css/style.css" rel="stylesheet" />
-
-    <!-- =======================================================
-  * Template Name: DevFolio - v4.9.1
-  * Template URL: https://bootstrapmade.com/devfolio-bootstrap-portfolio-html-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Creative CV</title>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/aos.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/bootstrap.min.css?ver=1.1.0" rel="stylesheet">
+    <link href="css/main.css?ver=1.1.0" rel="stylesheet">
+    <noscript>
+      <style type="text/css">
+        [data-aos] {
+            opacity: 1 !important;
+            transform: translate(0) scale(1) !important;
+        }
+      </style>
+    </noscript>
   </head>
-
-  <body>
-    <!-- ======= Header ======= -->
-    <header id="header" class="fixed-top">
-      <div class="container d-flex align-items-center justify-content-between">
-        <h1 class="logo"><a href="index.html">MKT's Portfolio</a></h1>
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
-
-        <nav id="navbar" class="navbar">
-          <ul>
-            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-            <li><a class="nav-link scrollto" href="#about">About</a></li>
-            <li><a class="nav-link scrollto" href="#services">Services</a></li>
-            <li><a class="nav-link scrollto" href="#work">Work</a></li>
-            <li><a class="nav-link scrollto" href="#blog">Blog</a></li>
-            <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li> -->
-            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-          </ul>
-          <i class="bi bi-list mobile-nav-toggle"></i>
+  <body id="top">
+    <header>
+      <div class="profile-page sidebar-collapse">
+        <nav class="navbar navbar-expand-lg fixed-top navbar-transparent bg-primary" color-on-scroll="400">
+          <div class="container">
+            <div class="navbar-translate"><a class="navbar-brand" href="#" rel="tooltip">Creative CV</a>
+              <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-bar bar1"></span><span class="navbar-toggler-bar bar2"></span><span class="navbar-toggler-bar bar3"></span></button>
+            </div>
+            <div class="collapse navbar-collapse justify-content-end" id="navigation">
+              <ul class="navbar-nav">
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#skill">Skills</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#portfolio">Portfolio</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#experience">Experience</a></li>
+                <li class="nav-item"><a class="nav-link smooth-scroll" href="#contact">Contact</a></li>
+              </ul>
+            </div>
+          </div>
         </nav>
-        <!-- .navbar -->
       </div>
     </header>
-    <!-- End Header -->
-
-    <!-- ======= Hero Section ======= -->
-    <div
-      id="hero"
-      class="hero route bg-image"
-      style=" background-image: url(assets/img/dark-gradient.png)"
-      style="background-size: cover;"
-      style="background-position: center;"
-    >
-      <div class="overlay-itro"></div>
-      <div class="hero-content display-table">
-        <div class="table-cell">
-          <div class="container">
-            <!--<p class="display-6 color-d">Hello, world!</p>-->
-            <h1 class="hero-title mb-4">I am Min Kyaw Thu</h1>
-            <p class="hero-subtitle">
-              <span
-                class="typed"
-                data-typed-items="Web Developer, Freelancer"
-              ></span>
-            </p>
-            <!-- <p class="pt-3"><a class="btn btn-primary btn js-scroll px-4" href="#about" role="button">Learn More</a></p> -->
+    <div class="page-content">
+      <div>
+<div class="profile-page">
+  <div class="wrapper">
+    <div class="page-header page-header-small" filter-color="green">
+      <div class="page-header-image" data-parallax="true" style="background-image: url('images/cc-bg-1.jpg')"></div>
+      <div class="container">
+        <div class="content-center">
+          <div class="cc-profile-image"><a href="#"><img src="images/anthony.jpg" alt="Image"/></a></div>
+          <div class="h2 title">Anthony Barnett</div>
+          <p class="category text-white">Web Developer, Graphic Designer,  Photographer</p><a class="btn btn-primary smooth-scroll mr-2" href="#contact" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Hire Me</a><a class="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor">Download CV</a>
+        </div>
+      </div>
+      <div class="section">
+        <div class="container">
+          <div class="button-container"><a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Facebook"><i class="fa fa-facebook"></i></a><a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Twitter"><i class="fa fa-twitter"></i></a><a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Google+"><i class="fa fa-google-plus"></i></a><a class="btn btn-default btn-round btn-lg btn-icon" href="#" rel="tooltip" title="Follow me on Instagram"><i class="fa fa-instagram"></i></a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section" id="about">
+  <div class="container">
+    <div class="card" data-aos="fade-up" data-aos-offset="10">
+      <div class="row">
+        <div class="col-lg-6 col-md-12">
+          <div class="card-body">
+            <div class="h4 mt-0 title">About</div>
+            <p>Hello! I am Anthony Barnett. Web Developer, Graphic Designer and Photographer.</p>
+            <p>Creative CV is a HTML resume template for professionals. Built with Bootstrap 4, Now UI Kit and FontAwesome, this modern and responsive design template is perfect to showcase your portfolio, skills and experience. <a href="https://templateflip.com/templates/creative-cv/" target="_blank">Learn More</a></p>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-12">
+          <div class="card-body">
+            <div class="h4 mt-0 title">Basic Information</div>
+            <div class="row">
+              <div class="col-sm-4"><strong class="text-uppercase">Age:</strong></div>
+              <div class="col-sm-8">24</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Email:</strong></div>
+              <div class="col-sm-8">anthony@company.com</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Phone:</strong></div>
+              <div class="col-sm-8">+1718-111-0011</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Address:</strong></div>
+              <div class="col-sm-8">140, City Center, New York, U.S.A</div>
+            </div>
+            <div class="row mt-3">
+              <div class="col-sm-4"><strong class="text-uppercase">Language:</strong></div>
+              <div class="col-sm-8">English, German, French</div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <!-- End Hero Section -->
-
-    <main id="main">
-      <!-- ======= About Section ======= -->
-      <section id="about" class="about-mf sect-pt4 route">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="box-shadow-full">
-                <div class="row">
-                  <div class="col-md-6">
-                    <div class="row">
-                      <div class="col-sm-6 col-md-5">
-                        <div class="about-img">
-                          <img
-                            src="assets/img/MKT.jpg"
-                            class="img-fluid rounded b-shadow-a"
-                            alt=""
-                          />
-                        </div>
-                      </div>
-                      <div class="col-sm-6 col-md-7">
-                        <div class="about-info">
-                          <p>
-                            <span class="title-s">Name: </span>
-                            <span>Min Kyaw Thu</span>
-                          </p>
-                          <p>
-                            <span class="title-s">Profile: </span>
-                            <span>Junior Web Developer</span>
-                          </p>
-                          <p>
-                            <span class="title-s">Email: </span>
-                            <span>minkyawthu2001@gmail.com</span>
-                          </p>
-                          <p>
-                            <span class="title-s">Phone: </span>
-                            <span>(+95) 9 777 341 100</span>
-                          </p>
-                        </div>
-                      </div>
-                    </div>
-                    <div class="skill-mf">
-                      <p class="title-s">Skills</p>
-                      <span>HTML</span> <span class="pull-right">85%</span>
-                      <div class="progress">
-                        <div
-                          class="progress-bar"
-                          role="progressbar"
-                          style="width: 85%"
-                          aria-valuenow="85"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                        ></div>
-                      </div>
-                      <span>CSS3</span> <span class="pull-right">60%</span>
-                      <div class="progress">
-                        <div
-                          class="progress-bar"
-                          role="progressbar"
-                          style="width: 60%"
-                          aria-valuenow="75"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                        ></div>
-                      </div>
-                      <span>PHP</span> <span class="pull-right">30%</span>
-                      <div class="progress">
-                        <div
-                          class="progress-bar"
-                          role="progressbar"
-                          style="width: 30%"
-                          aria-valuenow="50"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                        ></div>
-                      </div>
-                      <span>JAVASCRIPT</span>
-                      <span class="pull-right">40%</span>
-                      <div class="progress">
-                        <div
-                          class="progress-bar"
-                          role="progressbar"
-                          style="width: 40%"
-                          aria-valuenow="90"
-                          aria-valuemin="0"
-                          aria-valuemax="100"
-                        ></div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="col-md-6">
-                    <div class="about-me pt-4 pt-md-0">
-                      <div class="title-box-2">
-                        <h5 class="title-left">About me</h5>
-                      </div>
-                      <p class="lead">
-                        I think that I'm a hard-working, dependable and
-                        responsible person. I am very seriously on my career. I
-                        am always looking forward to improve my new skills. I
-                        can work under pressure. In my education section, I
-                        studying at Yangon University of Economic (2019 –
-                        Present). I have been studying web development for over
-                        a year. I believe in that I can handle your project as
-                        very well. If you are interested to hire or start with
-                        project with me, please contact me.
-                      </p>
-                      <!-- <p class="lead">
-                        Mauris blandit aliquet elit, eget tincidunt nibh
-                        pulvinar a. Vivamus suscipit tortor eget felis porttitor
-                        volutpat. Vestibulum ac diam sit amet quam vehicula
-                        elementum sed sit amet dui. porttitor at sem.
-                      </p>
-                      <p class="lead">
-                        Nulla porttitor accumsan tincidunt. Quisque velit nisi,
-                        pretium ut lacinia in, elementum id enim. Nulla
-                        porttitor accumsan tincidunt. Mauris blandit aliquet
-                        elit, eget tincidunt nibh pulvinar a.
-                      </p> -->
-                    </div>
-                    
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End About Section -->
-
-      <!-- ======= Services Section ======= -->
-      <section id="services" class="services-mf pt-5 route">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="title-box text-center">
-                <h3 class="title-a">Services</h3>
-                <p class="subtitle-a">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                </p>
-                <div class="line-mf"></div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="service-box">
-                <div class="service-ico">
-                  <span class="ico-circle"
-                    ><i class="bi bi-briefcase"></i
-                  ></span>
-                </div>
-                <div class="service-content">
-                  <h2 class="s-title">Web Design</h2>
-                  <p class="s-description text-center">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Magni adipisci eaque autem fugiat! Quia, provident vitae!
-                    Magni tempora perferendis eum non provident.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="service-box">
-                <div class="service-ico">
-                  <span class="ico-circle"
-                    ><i class="bi bi-card-checklist"></i
-                  ></span>
-                </div>
-                <div class="service-content">
-                  <h2 class="s-title">Web Development</h2>
-                  <p class="s-description text-center">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Magni adipisci eaque autem fugiat! Quia, provident vitae!
-                    Magni tempora perferendis eum non provident.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="service-box">
-                <div class="service-ico">
-                  <span class="ico-circle"
-                    ><i class="bi bi-bar-chart"></i
-                  ></span>
-                </div>
-                <div class="service-content">
-                  <h2 class="s-title">Photography</h2>
-                  <p class="s-description text-center">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Magni adipisci eaque autem fugiat! Quia, provident vitae!
-                    Magni tempora perferendis eum non provident.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="service-box">
-                <div class="service-ico">
-                  <span class="ico-circle"
-                    ><i class="bi bi-binoculars"></i
-                  ></span>
-                </div>
-                <div class="service-content">
-                  <h2 class="s-title">Responsive Design</h2>
-                  <p class="s-description text-center">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Magni adipisci eaque autem fugiat! Quia, provident vitae!
-                    Magni tempora perferendis eum non provident.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="service-box">
-                <div class="service-ico">
-                  <span class="ico-circle"
-                    ><i class="bi bi-brightness-high"></i
-                  ></span>
-                </div>
-                <div class="service-content">
-                  <h2 class="s-title">Graphic Design</h2>
-                  <p class="s-description text-center">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Magni adipisci eaque autem fugiat! Quia, provident vitae!
-                    Magni tempora perferendis eum non provident.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="service-box">
-                <div class="service-ico">
-                  <span class="ico-circle"
-                    ><i class="bi bi-calendar4-week"></i
-                  ></span>
-                </div>
-                <div class="service-content">
-                  <h2 class="s-title">Marketing Services</h2>
-                  <p class="s-description text-center">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Magni adipisci eaque autem fugiat! Quia, provident vitae!
-                    Magni tempora perferendis eum non provident.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Services Section -->
-
-      <!-- ======= Counter Section ======= -->
-      <div
-        class="section-counter paralax-mf bg-image"
-        style="background-image: url(assets/img/counters-bg.jpg)"
-      >
-        <div class="overlay-mf"></div>
-        <div class="container position-relative">
-          <div class="row">
-            <div class="col-sm-3 col-lg-3">
-              <div class="counter-box counter-box pt-4 pt-md-0">
-                <div class="counter-ico">
-                  <span class="ico-circle"><i class="bi bi-check"></i></span>
-                </div>
-                <div class="counter-num">
-                  <p
-                    data-purecounter-start="0"
-                    data-purecounter-end="450"
-                    data-purecounter-duration="1"
-                    class="counter purecounter"
-                  ></p>
-                  <span class="counter-text">WORKS COMPLETED</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-3 col-lg-3">
-              <div class="counter-box pt-4 pt-md-0">
-                <div class="counter-ico">
-                  <span class="ico-circle"
-                    ><i class="bi bi-journal-richtext"></i
-                  ></span>
-                </div>
-                <div class="counter-num">
-                  <p
-                    data-purecounter-start="0"
-                    data-purecounter-end="25"
-                    data-purecounter-duration="1"
-                    class="counter purecounter"
-                  ></p>
-                  <span class="counter-text">YEARS OF EXPERIENCE</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-3 col-lg-3">
-              <div class="counter-box pt-4 pt-md-0">
-                <div class="counter-ico">
-                  <span class="ico-circle"><i class="bi bi-people"></i></span>
-                </div>
-                <div class="counter-num">
-                  <p
-                    data-purecounter-start="0"
-                    data-purecounter-end="550"
-                    data-purecounter-duration="1"
-                    class="counter purecounter"
-                  ></p>
-                  <span class="counter-text">TOTAL CLIENTS</span>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-3 col-lg-3">
-              <div class="counter-box pt-4 pt-md-0">
-                <div class="counter-ico">
-                  <span class="ico-circle"><i class="bi bi-award"></i></span>
-                </div>
-                <div class="counter-num">
-                  <p
-                    data-purecounter-start="0"
-                    data-purecounter-end="48"
-                    data-purecounter-duration="1"
-                    class="counter purecounter"
-                  ></p>
-                  <span class="counter-text">AWARD WON</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- End Counter Section -->
-
-      <!-- ======= Portfolio Section ======= -->
-      <section id="work" class="portfolio-mf sect-pt4 route">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="title-box text-center">
-                <h3 class="title-a">Portfolio</h3>
-                <p class="subtitle-a">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                </p>
-                <div class="line-mf"></div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="work-box">
-                <a
-                  href="assets/img/work-1.jpg"
-                  data-gallery="portfolioGallery"
-                  class="portfolio-lightbox"
-                >
-                  <div class="work-img">
-                    <img src="assets/img/work-1.jpg" alt="" class="img-fluid" />
-                  </div>
-                </a>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Lorem impsum dolor</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">Web Design</span> /
-                        <span class="w-date">18 Sep. 2018</span>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <a href="portfolio-details.html">
-                          <span class="bi bi-plus-circle"></span
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a
-                  href="assets/img/work-2.jpg"
-                  data-gallery="portfolioGallery"
-                  class="portfolio-lightbox"
-                >
-                  <div class="work-img">
-                    <img src="assets/img/work-2.jpg" alt="" class="img-fluid" />
-                  </div>
-                </a>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Loreda Cuno Nere</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">Web Design</span> /
-                        <span class="w-date">18 Sep. 2018</span>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <a href="portfolio-details.html">
-                          <span class="bi bi-plus-circle"></span
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a
-                  href="assets/img/work-3.jpg"
-                  data-gallery="portfolioGallery"
-                  class="portfolio-lightbox"
-                >
-                  <div class="work-img">
-                    <img src="assets/img/work-3.jpg" alt="" class="img-fluid" />
-                  </div>
-                </a>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Mavrito Lana Dere</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">Web Design</span> /
-                        <span class="w-date">18 Sep. 2018</span>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <a href="portfolio-details.html">
-                          <span class="bi bi-plus-circle"></span
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a
-                  href="assets/img/work-4.jpg"
-                  data-gallery="portfolioGallery"
-                  class="portfolio-lightbox"
-                >
-                  <div class="work-img">
-                    <img src="assets/img/work-4.jpg" alt="" class="img-fluid" />
-                  </div>
-                </a>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Bindo Laro Cado</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">Web Design</span> /
-                        <span class="w-date">18 Sep. 2018</span>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <a href="portfolio-details.html">
-                          <span class="bi bi-plus-circle"></span
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a
-                  href="assets/img/work-5.jpg"
-                  data-gallery="portfolioGallery"
-                  class="portfolio-lightbox"
-                >
-                  <div class="work-img">
-                    <img src="assets/img/work-5.jpg" alt="" class="img-fluid" />
-                  </div>
-                </a>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Studio Lena Mado</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">Web Design</span> /
-                        <span class="w-date">18 Sep. 2018</span>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <a href="portfolio-details.html">
-                          <span class="bi bi-plus-circle"></span
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="work-box">
-                <a
-                  href="assets/img/work-6.jpg"
-                  data-gallery="portfolioGallery"
-                  class="portfolio-lightbox"
-                >
-                  <div class="work-img">
-                    <img src="assets/img/work-6.jpg" alt="" class="img-fluid" />
-                  </div>
-                </a>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Studio Big Bang</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">Web Design</span> /
-                        <span class="w-date">18 Sep. 2017</span>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <a href="portfolio-details.html">
-                          <span class="bi bi-plus-circle"></span
-                        ></a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Portfolio Section -->
-
-      <!-- ======= Testimonials Section ======= -->
-      <div
-        class="testimonials paralax-mf bg-image"
-        style="background-image: url(assets/img/overlay-bg.jpg)"
-      >
-        <div class="overlay-mf"></div>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div
-                class="testimonials-slider swiper"
-                data-aos="fade-up"
-                data-aos-delay="100"
-              >
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <div class="testimonial-box">
-                      <div class="author-test">
-                        <img
-                          src="assets/img/mml.jpg"
-                          alt=""
-                          class="rounded-circle b-shadow-a"
-                        />
-                        <span class="author">Minn Myat Lwin</span>
-                      </div>
-                      <div class="content-test">
-                        <p class="description lead">
-                          The service is smooth and straightforward. My advisor
-                          was helpful. I would recommend deal direct.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- End testimonial item -->
-
-                  <div class="swiper-slide">
-                    <div class="testimonial-box">
-                      <div class="author-test">
-                        <img
-                          src="assets/img/testimonial-4.jpg"
-                          alt=""
-                          class="rounded-circle b-shadow-a"
-                        />
-                        <span class="author">Marta Socrate</span>
-                      </div>
-                      <div class="content-test">
-                        <p class="description lead">
-                          Curabitur arcu erat, accumsan id imperdiet et,
-                          porttitor at sem. Lorem ipsum dolor sit amet,
-                          consectetur adipiscing elit.
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                  <!-- End testimonial item -->
-                </div>
-                <div class="swiper-pagination"></div>
-              </div>
-
-              <!-- <div id="testimonial-mf" class="owl-carousel owl-theme">
-          
-        </div> -->
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- End Testimonials Section -->
-
-      <!-- ======= Blog Section ======= -->
-      <section id="blog" class="blog-mf sect-pt4 route">
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="title-box text-center">
-                <h3 class="title-a">Blog</h3>
-                <p class="subtitle-a">
-                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                </p>
-                <div class="line-mf"></div>
-              </div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4">
-              <div class="card card-blog">
-                <div class="card-img">
-                  <a href="blog-single.html"
-                    ><img src="assets/img/post-1.jpg" alt="" class="img-fluid"
-                  /></a>
-                </div>
-                <div class="card-body">
-                  <div class="card-category-box">
-                    <div class="card-category">
-                      <h6 class="category">Travel</h6>
-                    </div>
-                  </div>
-                  <h3 class="card-title">
-                    <a href="blog-single.html">See more ideas about Travel</a>
-                  </h3>
-                  <p class="card-description">
-                    Proin eget tortor risus. Pellentesque in ipsum id orci porta
-                    dapibus. Praesent sapien massa, convallis a pellentesque
-                    nec, egestas non nisi.
-                  </p>
-                </div>
-                <div class="card-footer">
-                  <div class="post-author">
-                    <a href="#">
-                      <img
-                        src="assets/img/MKT.jpg"
-                        alt=""
-                        class="avatar rounded-circle"
-                      />
-                      <span class="author">Min Kyaw Thu</span>
-                    </a>
-                  </div>
-                  <div class="post-date">
-                    <span class="bi bi-clock"></span> 10 min
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card card-blog">
-                <div class="card-img">
-                  <a href="blog-single.html"
-                    ><img src="assets/img/post-2.jpg" alt="" class="img-fluid"
-                  /></a>
-                </div>
-                <div class="card-body">
-                  <div class="card-category-box">
-                    <div class="card-category">
-                      <h6 class="category">Web Design</h6>
-                    </div>
-                  </div>
-                  <h3 class="card-title">
-                    <a href="blog-single.html">See more ideas about Travel</a>
-                  </h3>
-                  <p class="card-description">
-                    Proin eget tortor risus. Pellentesque in ipsum id orci porta
-                    dapibus. Praesent sapien massa, convallis a pellentesque
-                    nec, egestas non nisi.
-                  </p>
-                </div>
-                <div class="card-footer">
-                  <div class="post-author">
-                    <a href="#">
-                      <img
-                        src="assets/img/MKT.jpg"
-                        alt=""
-                        class="avatar rounded-circle"
-                      />
-                      <span class="author">Min Kyaw Thu</span>
-                    </a>
-                  </div>
-                  <div class="post-date">
-                    <span class="bi bi-clock"></span> 10 min
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="card card-blog">
-                <div class="card-img">
-                  <a href="blog-single.html"
-                    ><img src="assets/img/post-3.jpg" alt="" class="img-fluid"
-                  /></a>
-                </div>
-                <div class="card-body">
-                  <div class="card-category-box">
-                    <div class="card-category">
-                      <h6 class="category">Web Design</h6>
-                    </div>
-                  </div>
-                  <h3 class="card-title">
-                    <a href="blog-single.html">See more ideas about Travel</a>
-                  </h3>
-                  <p class="card-description">
-                    Proin eget tortor risus. Pellentesque in ipsum id orci porta
-                    dapibus. Praesent sapien massa, convallis a pellentesque
-                    nec, egestas non nisi.
-                  </p>
-                </div>
-                <div class="card-footer">
-                  <div class="post-author">
-                    <a href="#">
-                      <img
-                        src="assets/img/MKT.jpg"
-                        alt=""
-                        class="avatar rounded-circle"
-                      />
-                      <span class="author">Min Kyaw Thu</span>
-                    </a>
-                  </div>
-                  <div class="post-date">
-                    <span class="bi bi-clock"></span> 10 min
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Blog Section -->
-
-      <!-- ======= Contact Section ======= -->
-      <section
-        id="contact"
-        class="paralax-mf footer-paralax bg-image sect-mt4 route"
-        style="background-image: url(assets/img/overlay-bg.jpg)"
-      >
-        <div class="overlay-mf"></div>
-        <div class="container">
-          <div class="row">
-            <div class="col-sm-12">
-              <div class="contact-mf">
-                <div id="contact" class="box-shadow-full">
-                  <div class="row">
-                    <!-- <div class="col-md-6">
-                    <div class="title-box-2">
-                      <h5 class="title-left">
-                        Send Message Us
-                      </h5>
-                    </div>
-                    <div>
-                      <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                        <div class="row">
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                            </div>
-                          </div>
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                            </div>
-                          </div>
-                          <div class="col-md-12 mb-3">
-                            <div class="form-group">
-                              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-                            </div>
-                          </div>
-                          <div class="col-md-12">
-                            <div class="form-group">
-                              <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-                            </div>
-                          </div>
-                          <div class="col-md-12 text-center my-3">
-                            <div class="loading">Loading</div>
-                            <div class="error-message"></div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
-                          </div>
-                          <div class="col-md-12 text-center">
-                            <button type="submit" class="button button-a button-big button-rouded">Send Message</button>
-                          </div>
-                        </div>
-                      </form>
-                    </div>
-                  </div> -->
-                    <div class="col-md-12">
-                      <div class="title-box-2 pt-4 pt-md-0">
-                        <h5 class="title-left">Get in Touch</h5>
-                      </div>
-                      <div class="more-info">
-                        <!-- <p class="lead">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis dolorum dolorem soluta quidem
-                        expedita aperiam aliquid at.
-                        Totam magni ipsum suscipit amet? Autem nemo esse laboriosam ratione nobis
-                        mollitia inventore?
-                      </p> -->
-                        <ul class="list-ico">
-                          <li>
-                            <span class="bi bi-geo-alt"></span>Mya Nandar
-                            Housing, Hlaing, Yangon
-                          </li>
-                          <li>
-                            <span class="bi bi-phone"></span>(+95) 9 777 341 100
-                          </li>
-                          <li>
-                            <span class="bi bi-envelope"></span>
-                            minkyawthu2001@gmail.com
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="socials">
-                        <ul>
-                          <li>
-                            <a
-                              href="https://www.facebook.com/supermkt2001"
-                              target="_blank"
-                              ><span class="ico-circle"
-                                ><i class="bi bi-facebook"></i></span
-                            ></a>
-                          </li>
-                          <li>
-                            <a
-                              href="https://www.instagram.com/minkyawthu01/"
-                              target="_blank"
-                              ><span class="ico-circle"
-                                ><i class="bi bi-instagram"></i></span
-                            ></a>
-                          </li>
-                          <li>
-                            <a
-                              href="https://twitter.com/supermkt2001"
-                              target="_blank"
-                              ><span class="ico-circle"
-                                ><i class="bi bi-twitter"></i></span
-                            ></a>
-                          </li>
-                          <li>
-                            <a
-                              href="https://www.linkedin.com/in/min-kyaw-thu-3598a816b/"
-                              target="_blank"
-                              ><span class="ico-circle"
-                                ><i class="bi bi-linkedin"></i></span
-                            ></a>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- End Contact Section -->
-    </main>
-    <!-- End #main -->
-
-    <!-- ======= Footer ======= -->
-    <footer>
-      <div class="container">
+  </div>
+</div>
+<div class="section" id="skill">
+  <div class="container">
+    <div class="h4 text-center mb-4 title">Professional Skills</div>
+    <div class="card" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+      <div class="card-body">
         <div class="row">
-          <div class="col-sm-12">
-            <div class="copyright-box">
-              <p class="copyright">
-                &copy; Copyright <strong>MinKyawThu</strong>. All Rights
-                Reserved
-              </p>
-              <!-- <div class="credits"> -->
-              <!--
-              All the links in the footer should remain intact.
-              You can delete the links only if you purchased the pro version.
-              Licensing information: https://bootstrapmade.com/license/
-              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=DevFolio
-            -->
-              <!-- Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a> -->
-              <!-- </div> -->
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">HTML</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;"></div><span class="progress-value">80%</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">CSS</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">75%</span>
+              </div>
             </div>
           </div>
         </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">JavaScript</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div><span class="progress-value">60%</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">SASS</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"></div><span class="progress-value">60%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">Bootstrap</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 75%;"></div><span class="progress-value">75%</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="progress-container progress-primary"><span class="progress-badge">Photoshop</span>
+              <div class="progress">
+                <div class="progress-bar progress-bar-primary" data-aos="progress-full" data-aos-offset="10" data-aos-duration="2000" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 70%;"></div><span class="progress-value">70%</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section" id="portfolio">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 ml-auto mr-auto">
+        <div class="h4 text-center mb-4 title">Portfolio</div>
+        <div class="nav-align-center">
+          <ul class="nav nav-pills nav-pills-primary" role="tablist">
+            <li class="nav-item"><a class="nav-link active" data-toggle="tab" href="#web-development" role="tablist"><i class="fa fa-laptop" aria-hidden="true"></i></a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#graphic-design" role="tablist"><i class="fa fa-picture-o" aria-hidden="true"></i></a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="tab" href="#Photography" role="tablist"><i class="fa fa-camera" aria-hidden="true"></i></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="tab-content gallery mt-5">
+      <div class="tab-pane active" id="web-development">
+        <div class="ml-auto mr-auto">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
+                  <figure class="cc-effect"><img src="images/project-1.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Recent Project</div>
+                      <p>Web Development</p>
+                    </figcaption>
+                  </figure></a></div>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
+                  <figure class="cc-effect"><img src="images/project-2.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Startup Project</div>
+                      <p>Web Development</p>
+                    </figcaption>
+                  </figure></a></div>
+            </div>
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
+                  <figure class="cc-effect"><img src="images/project-3.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Food Order Project</div>
+                      <p>Web Development</p>
+                    </figcaption>
+                  </figure></a></div>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#web-development">
+                  <figure class="cc-effect"><img src="images/project-4.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Web Advertising Project</div>
+                      <p>Web Development</p>
+                    </figcaption>
+                  </figure></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane" id="graphic-design" role="tabpanel">
+        <div class="ml-auto mr-auto">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
+                  <figure class="cc-effect"><img src="images/graphic-design-1.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Triangle Pattern</div>
+                      <p>Graphic Design</p>
+                    </figcaption>
+                  </figure></a></div>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
+                  <figure class="cc-effect"><img src="images/graphic-design-2.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Abstract Umbrella</div>
+                      <p>Graphic Design</p>
+                    </figcaption>
+                  </figure></a></div>
+            </div>
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
+                  <figure class="cc-effect"><img src="images/graphic-design-3.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Cube Surface Texture</div>
+                      <p>Graphic Design</p>
+                    </figcaption>
+                  </figure></a></div>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#graphic-design">
+                  <figure class="cc-effect"><img src="images/graphic-design-4.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Abstract Line</div>
+                      <p>Graphic Design</p>
+                    </figcaption>
+                  </figure></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane" id="Photography" role="tabpanel">
+        <div class="ml-auto mr-auto">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
+                  <figure class="cc-effect"><img src="images/photography-1.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Photoshoot</div>
+                      <p>Photography</p>
+                    </figcaption>
+                  </figure></a></div>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
+                  <figure class="cc-effect"><img src="images/photography-3.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Wedding Photoshoot</div>
+                      <p>Photography</p>
+                    </figcaption>
+                  </figure></a></div>
+            </div>
+            <div class="col-md-6">
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
+                  <figure class="cc-effect"><img src="images/photography-2.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Beach Photoshoot</div>
+                      <p>Photography</p>
+                    </figcaption>
+                  </figure></a></div>
+              <div class="cc-porfolio-image img-raised" data-aos="fade-up" data-aos-anchor-placement="top-bottom"><a href="#Photography">
+                  <figure class="cc-effect"><img src="images/photography-4.jpg" alt="Image"/>
+                    <figcaption>
+                      <div class="h4">Nature Photoshoot</div>
+                      <p>Photography</p>
+                    </figcaption>
+                  </figure></a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section" id="experience">
+  <div class="container cc-experience">
+    <div class="h4 text-center mb-4 title">Work Experience</div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>March 2016 - Present</p>
+            <div class="h5">CreativeM</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Front End Developer</div>
+            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>April 2014 - March 2016</p>
+            <div class="h5">WebNote</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Web Developer</div>
+            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-experience-header">
+            <p>April 2013 - February 2014</p>
+            <div class="h5">WEBM</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Intern</div>
+            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section">
+  <div class="container cc-education">
+    <div class="h4 text-center mb-4 title">Education</div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-education-header">
+            <p>2013 - 2015</p>
+            <div class="h5">Master's Degree</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Master of Information Technology</div>
+            <p class="category">University of Computer Science</p>
+            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-education-header">
+            <p>2009 - 2013</p>
+            <div class="h5">Bachelor's Degree</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Bachelor of Computer Science</div>
+            <p class="category">University of Computer Science</p>
+            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="row">
+        <div class="col-md-3 bg-primary" data-aos="fade-right" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body cc-education-header">
+            <p>2007 - 2009</p>
+            <div class="h5">High School</div>
+          </div>
+        </div>
+        <div class="col-md-9" data-aos="fade-left" data-aos-offset="50" data-aos-duration="500">
+          <div class="card-body">
+            <div class="h5">Science and Mathematics</div>
+            <p class="category">School of Secondary board</p>
+            <p>Euismod massa scelerisque suspendisse fermentum habitant vitae ullamcorper magna quam iaculis, tristique sapien taciti mollis interdum sagittis libero nunc inceptos tellus, hendrerit vel eleifend primis lectus quisque cubilia sed mauris. Lacinia porta vestibulum diam integer quisque eros pulvinar curae, curabitur feugiat arcu vivamus parturient aliquet laoreet at, eu etiam pretium molestie ultricies sollicitudin dui.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section" id="reference">
+  <div class="container cc-reference">
+    <div class="h4 mb-4 text-center title">References</div>
+    <div class="card" data-aos="zoom-in">
+      <div class="carousel slide" id="cc-Indicators" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li class="active" data-target="#cc-Indicators" data-slide-to="0"></li>
+          <li data-target="#cc-Indicators" data-slide-to="1"></li>
+          <li data-target="#cc-Indicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-1.jpg" alt="Image"/>
+                <div class="h5 pt-2">Aiyana</div>
+                <p class="category">CEO / WEBM</p>
+              </div>
+              <div class="col-lg-10 col-md-9">
+                <p> Habitasse venenatis commodo tempor eleifend arcu sociis sollicitudin ante pulvinar ad, est porta cras erat ullamcorper volutpat metus duis platea convallis, tortor primis ac quisque etiam luctus nisl nullam fames. Ligula purus suscipit tempus nascetur curabitur donec nam ullamcorper, laoreet nullam mauris dui aptent facilisis neque elementum ac, risus semper felis parturient fringilla rhoncus eleifend.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-2.jpg" alt="Image"/>
+                <div class="h5 pt-2">Braiden</div>
+                <p class="category">CEO / Creativem</p>
+              </div>
+              <div class="col-lg-10 col-md-9">
+                <p> Habitasse venenatis commodo tempor eleifend arcu sociis sollicitudin ante pulvinar ad, est porta cras erat ullamcorper volutpat metus duis platea convallis, tortor primis ac quisque etiam luctus nisl nullam fames. Ligula purus suscipit tempus nascetur curabitur donec nam ullamcorper, laoreet nullam mauris dui aptent facilisis neque elementum ac, risus semper felis parturient fringilla rhoncus eleifend.</p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div class="col-lg-2 col-md-3 cc-reference-header"><img src="images/reference-image-3.jpg" alt="Image"/>
+                <div class="h5 pt-2">Alexander</div>
+                <p class="category">CEO / Webnote</p>
+              </div>
+              <div class="col-lg-10 col-md-9">
+                <p> Habitasse venenatis commodo tempor eleifend arcu sociis sollicitudin ante pulvinar ad, est porta cras erat ullamcorper volutpat metus duis platea convallis, tortor primis ac quisque etiam luctus nisl nullam fames. Ligula purus suscipit tempus nascetur curabitur donec nam ullamcorper, laoreet nullam mauris dui aptent facilisis neque elementum ac, risus semper felis parturient fringilla rhoncus eleifend.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="section" id="contact">
+  <div class="cc-contact-information" style="background-image: url('images/staticmap.png')">
+    <div class="container">
+      <div class="cc-contact">
+        <div class="row">
+          <div class="col-md-9">
+            <div class="card mb-0" data-aos="zoom-in">
+              <div class="h4 text-center title">Contact Me</div>
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="card-body">
+                    <form action="https://formspree.io/your@email.com" method="POST">
+                      <div class="p pb-3"><strong>Feel free to contact me </strong></div>
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
+                            <input class="form-control" type="text" name="name" placeholder="Name" required="required"/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-file-text"></i></span>
+                            <input class="form-control" type="text" name="Subject" placeholder="Subject" required="required"/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="input-group"><span class="input-group-addon"><i class="fa fa-envelope"></i></span>
+                            <input class="form-control" type="email" name="_replyto" placeholder="E-mail" required="required"/>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row mb-3">
+                        <div class="col">
+                          <div class="form-group">
+                            <textarea class="form-control" name="message" placeholder="Your Message" required="required"></textarea>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <button class="btn btn-primary" type="submit">Send</button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="card-body">
+                    <p class="mb-0"><strong>Address </strong></p>
+                    <p class="pb-2">140, City Center, New York, U.S.A</p>
+                    <p class="mb-0"><strong>Phone</strong></p>
+                    <p class="pb-2">+1718-111-0011</p>
+                    <p class="mb-0"><strong>Email</strong></p>
+                    <p>anthony@company.com</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div></div>
+    </div>
+    <footer class="footer">
+      <div class="container text-center"><a class="cc-facebook btn btn-link" href="#"><i class="fa fa-facebook fa-2x " aria-hidden="true"></i></a><a class="cc-twitter btn btn-link " href="#"><i class="fa fa-twitter fa-2x " aria-hidden="true"></i></a><a class="cc-google-plus btn btn-link" href="#"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a><a class="cc-instagram btn btn-link" href="#"><i class="fa fa-instagram fa-2x " aria-hidden="true"></i></a></div>
+      <div class="h4 title text-center">Anthony Barnett</div>
+      <div class="text-center text-muted">
+        <p>&copy; Creative CV. All rights reserved.<br>Design - <a class="credit" href="https://templateflip.com" target="_blank">TemplateFlip</a></p>
       </div>
     </footer>
-    <!-- End  Footer -->
-
-    <div id="preloader"></div>
-    <a
-      href="#"
-      class="back-to-top d-flex align-items-center justify-content-center"
-      ><i class="bi bi-arrow-up-short"></i
-    ></a>
-
-    <!-- Vendor JS Files -->
-    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-    <script src="assets/vendor/typed.js/typed.min.js"></script>
-    <script src="assets/vendor/php-email-form/validate.js"></script>
-
-    <!-- Template Main JS File -->
-    <script src="assets/js/main.js"></script>
+    <script src="js/core/jquery.3.2.1.min.js?ver=1.1.0"></script>
+    <script src="js/core/popper.min.js?ver=1.1.0"></script>
+    <script src="js/core/bootstrap.min.js?ver=1.1.0"></script>
+    <script src="js/now-ui-kit.js?ver=1.1.0"></script>
+    <script src="js/aos.js?ver=1.1.0"></script>
+    <script src="scripts/main.js?ver=1.1.0"></script>
   </body>
 </html>
